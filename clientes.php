@@ -28,18 +28,18 @@ if ($_GET == true) {
       <div class="col-lg-4 col-sm-12">
         <?php if (!$_GET) { ?>
           <label for="tel">Nome Cliente:</label>
-          <input id="tel" class="form-control" type="text" name="nome" value="">
+          <input id="tel" class="form-control" type="text" name="nome" value="" required>
           <hr>
         <?php } ?>
 
         <label for="tel">Telefone:</label>
-        <input id="tel" class="form-control" type="text" name="telefone" value="<?php echo $telUser; ?>" placeholder="Ex. (00) 00000-0000" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);">
+        <input id="tel" class="form-control" type="text" name="telefone" value="<?php echo $telUser; ?>" placeholder="Ex. (00) 00000-0000" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);" required>
         <hr>
         <label for="cpf">CPF:</label>
-        <input id="cpf" class="form-control" type="text" name="CPF" value="<?php echo $cpfUser; ?>" placeholder="Ex. 000.000.000-00">
+        <input id="cpf" class="form-control" type="text" name="CPF" value="<?php echo $cpfUser; ?>" placeholder="Ex. 000.000.000-00" required>
         <hr>
         <label for="placa">Placa do Veículo:</label>
-        <input id="placa" class="form-control" type="text" name="placa_veiculo" value="<?php echo $placaUser; ?>" placeholder="Ex. AAAA-0000" maxlength="9">
+        <input id="placa" class="form-control" type="text" name="placa_veiculo" value="<?php echo $placaUser; ?>" placeholder="Ex. AAAA-0000" maxlength="9" required>
 
         <input type="hidden" name="id" value="<?php echo $idUser; ?>">
         <?php

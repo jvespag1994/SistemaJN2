@@ -18,7 +18,6 @@ include("classes/CRUD.class.php");
   <meta NAME="LANGUAGE" content="PT-BR">
 
   <title>Sistema - Controle de Clientes</title>
-  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="./css/font-awesome.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,8 +27,5 @@ include("classes/CRUD.class.php");
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="./api/js/kit_fontawesome.js" crossorigin="anonymous"></script>
   <script src="./api/js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-
   <script type="text/javascript" src="./api/js/jquery.maskedinput.min.js">
   </script>
-  <script src="./assets/node_modules/popper/popper.min.js" crossorigin="anonymous"></script>
-  <script src="./assets/node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
