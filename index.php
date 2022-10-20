@@ -5,7 +5,7 @@ session_start(); ?>
 
 <body cz-shortcut-listen="true">
   <main role="main">
-    <h1>Controle de Clientes</h1>
+    <h1><a href="index.php">Controle de Clientes</a></h1>
 
     <div class="row">
       <div class="col-lg-6 mb-2">

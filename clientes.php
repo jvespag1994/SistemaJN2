@@ -1,7 +1,5 @@
 <?php include_once('./api/classes.php');
 session_start();
-error_reporting(0);
-
 if ($_GET == true) {
   extract($_GET);
   $id = $_GET['id'];
@@ -12,7 +10,11 @@ if ($_GET == true) {
   $telUser = $user['dados'][0]['telefone'];
   $cpfUser = $user['dados'][0]['CPF'];
   $placaUser = $user['dados'][0]['placa_veiculo'];
+} else {
+  $telUser = '';
+  $placaUser = '';
 }
+
 ?>
 
 <section class="ml-2">
