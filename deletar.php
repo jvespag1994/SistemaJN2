@@ -1,13 +1,9 @@
 <?php
-// include("../include.php");
 session_start();
 include("./api/classes/config.php");
 include("./api/classes/DB.class.php");
-// include('./api/classes/PHPMailerAutoload.php');
-// include("./api/classes/class.upload.php");
 include("./api/classes/Geral.class.php");
 include("./api/classes/CRUD.class.php");
-// include("./api/classes/Login.class.php");
 extract($_POST);
 
 $resposta = array(
