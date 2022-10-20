@@ -1,0 +1,32 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.confirm-delete {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.trash {
+  color: red;
+}
+
+.trash:hover {
+color: rgb(250, 90, 90);
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
